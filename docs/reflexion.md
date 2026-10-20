@@ -66,9 +66,13 @@ Si agregara un apellido, revisaría el formulario, la clase de datos, las valida
 RESPUESTA:
 
 Utilicé Cursor como entorno de desarrollo y Eclipse Temurin JDK 21.0.12.1. Comprobé la instalación con:
+
 java -version
+
 javac -version
+
 echo $env:JAVA_HOME
+
 Para compilar y ejecutar utilicé:
 .\mvnw.cmd clean compile
 .\mvnw.cmd javafx:run
