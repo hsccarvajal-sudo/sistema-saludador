@@ -74,8 +74,11 @@ javac -version
 echo $env:JAVA_HOME
 
 Para compilar y ejecutar utilicé:
+
 .\mvnw.cmd clean compile
+
 .\mvnw.cmd javafx:run
+
 La carpeta target contiene resultados de la compilación y no necesita publicarse porque se puede generar nuevamente. 
 El .gitignore permite excluir esos archivos y otros temporales. En cambio, conservé .mvn y los scripts del Wrapper para facilitar la ejecución del proyecto.
 
