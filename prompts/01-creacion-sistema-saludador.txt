@@ -1,0 +1,78 @@
+Necesito realizar hoy un taller universitario. Estoy trabajando
+en Windows y soy principiante. Ayúdame a crear y probar un
+prototipo de aplicación de escritorio llamado "Sistema Saludador".
+
+Primero revisa la carpeta abierta:
+- Si está vacía, crea el proyecto desde cero.
+- Si ya contiene archivos, revísalos y conserva lo que funcione.
+- Trabaja solamente dentro de esta carpeta.
+- No instales programas ni cambies configuraciones globales sin
+  explicarme primero qué necesitas y pedirme autorización.
+
+TECNOLOGÍA
+- Java y JavaFX.
+- Maven para gestionar las dependencias de JavaFX.
+- Utiliza una combinación estable y compatible de JDK y JavaFX.
+- Incluye Maven Wrapper completo y funcional para poder ejecutar
+  el proyecto en Windows sin instalar Maven por separado.
+- Mantén el código sencillo, sin base de datos ni servicios externos.
+- No uses una página web, Electron ni Swing en lugar de JavaFX.
+
+ANTES DE PROGRAMAR
+Comprueba desde la terminal:
+java -version
+javac -version
+
+Si falta el JDK, indícame una distribución confiable, la versión
+exacta compatible con el proyecto y los pasos para instalarla
+en Windows. No confundas el JDK con instalar solo un JRE.
+Después de instalarlo, explícame cómo comprobar que funciona.
+
+FUNCIONALIDAD
+1. Abrir una ventana titulada "Sistema Saludador".
+2. Mostrar un botón "Solicitar saludo".
+3. Al pulsarlo, mostrar dentro de la misma ventana un formulario:
+   - Nombre.
+   - Edad.
+   - Hora de 1 a 12.
+   - Minutos de 00 a 59.
+   - Selector AM/PM.
+   - Botón "Aceptar".
+4. Al pulsar "Aceptar", mostrar un saludo que incluya el nombre
+   y la edad ingresados.
+5. Utiliza la hora para elegir un saludo coherente:
+   - Buenos días: desde las 5:00 AM hasta antes de las 12:00 PM.
+   - Buenas tardes: desde las 12:00 PM hasta antes de las 6:00 PM.
+   - Buenas noches: el resto de las horas.
+   Esta regla es una decisión del prototipo: documéntala.
+6. Valida que el nombre no esté vacío, que la edad sea un número
+   entero entre 1 y 120 y que la hora sea válida.
+7. Si hay errores, muestra un mensaje claro y permite corregirlos.
+8. Permite volver a solicitar otro saludo.
+
+DOCUMENTACIÓN Y ENTREGA
+- README.md en español:
+  descripción del proyecto, requisitos exactos, instalación
+  del JDK, pasos para ejecutar en Windows, instrucciones para
+  descargar el proyecto desde GitHub y ejemplos de prueba.
+- Carpeta prompts:
+  guarda este mensaje completo y sin modificar en
+  01-creacion-sistema-saludador.txt.
+  No inventes prompts anteriores ni un historial de trabajo.
+- Carpeta docs:
+  crea reflexion.md como plantilla con preguntas sobre retos,
+  descubrimientos, sorpresas, estructura del código y herramientas.
+  No escribas experiencias personales como si fueran mías.
+- Archivo .gitignore apropiado para Java y Maven:
+  excluye compilaciones, archivos temporales y configuraciones
+  locales que no deban publicarse.
+
+COMPROBACIÓN
+- Comprueba que el proyecto compile.
+- Intenta ejecutarlo si el entorno lo permite.
+- No afirmes que la interfaz fue probada si no pudiste verla.
+- Si ocurre un error, lee el mensaje y corrige su causa.
+- Al finalizar, enumera los archivos creados, explica brevemente
+  para qué sirve cada uno y dame el comando exacto de ejecución
+  en PowerShell usando Maven Wrapper.
+- No hagas commit, push ni publiques nada en GitHub todavía.

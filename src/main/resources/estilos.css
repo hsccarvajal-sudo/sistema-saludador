@@ -1,0 +1,47 @@
+.root {
+    -fx-font-family: "Segoe UI", Arial, sans-serif;
+    -fx-font-size: 14px;
+    -fx-background-color: #eef3f8;
+}
+
+.panel {
+    -fx-background-color: #ffffff;
+    -fx-background-radius: 12;
+    -fx-effect: dropshadow(gaussian, rgba(20, 40, 70, 0.12), 16, 0.2, 0, 4);
+}
+
+.titulo {
+    -fx-font-size: 22px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #1d3557;
+}
+
+.ayuda {
+    -fx-text-fill: #5c6b7a;
+    -fx-font-size: 12px;
+}
+
+.error {
+    -fx-text-fill: #b42318;
+    -fx-font-size: 13px;
+}
+
+.saludo {
+    -fx-font-size: 18px;
+    -fx-text-fill: #1b4332;
+}
+
+.button {
+    -fx-background-color: #1d4ed8;
+    -fx-text-fill: white;
+    -fx-background-radius: 8;
+    -fx-padding: 8 16 8 16;
+}
+
+.button:hover {
+    -fx-background-color: #1e40af;
+}
+
+.text-field, .combo-box {
+    -fx-pref-width: 220px;
+}

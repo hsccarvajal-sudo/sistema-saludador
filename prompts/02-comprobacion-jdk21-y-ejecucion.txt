@@ -1,0 +1,31 @@
+Ya instalé Eclipse Temurin JDK 21 y reinicié Cursor. Continúa
+con el proyecto existente, sin crearlo de nuevo.
+
+1. Comprueba java -version, javac -version y JAVA_HOME.
+   Si todavía detectas Java 8 o falta JAVA_HOME, busca el JDK 21
+   en C:\Program Files\Eclipse Adoptium y configura JAVA_HOME
+   y PATH solo para esta sesión de terminal, sin cambios globales.
+
+2. Ejecuta .\mvnw.cmd clean compile.
+   Si falla, diagnostica y corrige los errores hasta compilar.
+   Conserva Java 21, JavaFX y Maven.
+
+3. Ejecuta .\mvnw.cmd javafx:run para abrir la aplicación.
+   No afirmes que probaste visualmente la ventana: yo la revisaré.
+
+4. Revisa que estén implementados el botón Solicitar saludo,
+   el formulario dentro de la misma ventana con nombre, edad,
+   hora y AM/PM, las validaciones y el saludo con nombre y edad.
+
+5. Verifica que el README tenga instrucciones reales de ejecución
+   en Windows y que existan prompts/ y docs/reflexion.md.
+   Guarda este mensaje como el siguiente prompt numerado.
+   No inventes mi reflexión ni resultados de pruebas.
+
+Haz las comprobaciones y correcciones necesarias en esta misma
+tarea, sin detenerte solo para anunciar cada paso. Pide permiso
+si necesitas instalar algo o modificar el sistema.
+
+Al terminar, dame un resumen breve: si compiló, si se lanzó,
+qué corregiste y qué debo probar manualmente.
+No hagas commit ni publiques en GitHub.
